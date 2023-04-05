@@ -56,3 +56,14 @@ footer{grid-area: footer;}
 aside{grid-area: aside;}
 div{grid-area: div;}
 
+.gridaside{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-area: auto;
+    grid-template-areas: 
+    "div header section main";
+}
+div{grid-area: div;}
+section{grid-area: section;}
+main{grid-area: main;}
+header{grid-area: header;}
